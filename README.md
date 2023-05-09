@@ -1,6 +1,9 @@
 # hoppscotch-docker-compose
-self hosted hoppscotch with docker-compose
-ref: https://docs.hoppscotch.io/documentation/self-host/install-and-build/
+
+- self hosted hoppscotch with docker-compose
+- ref: 
+  - https://hoppscotch.io/
+  - https://docs.hoppscotch.io/documentation/self-host/install-and-build/
 
 #### setup docker and docker-compose
 
@@ -42,3 +45,10 @@ docker-compose up -d
 docker exec -it hoppscotch-backend bash
 pnpm exec prisma migrate deploy
 ```
+
+#### web
+
+- app web: http://localhost:3000
+- admin web: http://localhost:3100
+- mail web: http://localhost:1080
+
